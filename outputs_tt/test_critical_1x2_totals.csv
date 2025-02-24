@@ -1,0 +1,5 @@
+modelo,contador_total
+linear,444.0
+mlp,396.0
+rf,180.0
+xgb,176.65830612182617
