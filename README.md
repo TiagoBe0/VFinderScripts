@@ -13,3 +13,12 @@ VacancyAnalysis se presenta como una alternativa innovadora al algoritmo de Wign
 
 
 VacancyAnalysis es un software avanzado de postprocesamiento de datos derivados de simulaciones atomísticas, diseñado para facilitar el trabajo del investigador. Al integrar la potencia de los modificadores de OVITO para la extracción de información crítica de la muestra atomística con técnicas de machine learning para interpretar estos datos, el software automatiza y agiliza el análisis de defectos. Esta combinación de metodologías tradicionales y modernas no solo optimiza el flujo de trabajo, sino que también incrementa la precisión en la identificación y cuantificación de vacancias, ofreciendo una herramienta robusta y versátil para el estudio y la optimización de materiales.
+
+
+
+**REQUERIMIENTOS Y USO**
+
+El archivo input\_params.py contiene toda la información necesaria para inicializar el algoritmo. Este archivo puede ser leído y modificado por cualquier editor de texto. El software requiere
+un archivo de entrenamiento (idealmente una red perfecta sin deformacion) y un archivo con defectos en su red. Los archivos suministrados deben ser archivos dump, como aquellos generados por el software LAMMPS [100].\\
+Una vez realizado el entrenamiento, estos datos quedan guardados en un archivo.json y pueden ser reutilizados para otras predicciones en caso de no disponer de una muestra sin deformacion.
+Desde el script nombrado main.py es que podemos ejecutar la totalidad del algoritmo. Para esto solo debemos ejecutar el comando python3 main.py en una terminal situada en el directorio que contiene los archivos de VacancyAnalysis, la muestra de entrenamiento y la muestra defectuosa.
