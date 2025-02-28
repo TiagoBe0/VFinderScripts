@@ -1,4 +1,9 @@
 **Manual VFScript**
+
+
+
+
+
 El software desarrollado en el presente trabajo, denominado VacancyAnalysis, funciona para detectar, aislar y describir los defectos en una muestra atomística. Tras identificar estos defectos, el sistema extrae las características esenciales de cada uno, lo que permite alimentar tres modelos distintos de machine learning. Cada modelo se entrena para aproximar de manera precisa las vacancias asociadas a cada tipo de defecto. Está escrito en lenguaje Python 3.12.3 y depende de las librerías Numpy(1.23.0), Pandas(2.2.3), Scikit-learn(1.6.1) y XGBoost(2.1.4). Implementa los modificadores del software de código abierto OVITO (6.8.2.1) para extraer informacion relevante de aquellas regiones de la red cristalina que pueden presentar vacancias.
 
 
@@ -22,3 +27,6 @@ El archivo input\_params.py contiene toda la información necesaria para inicial
 un archivo de entrenamiento (idealmente una red perfecta sin deformacion) y un archivo con defectos en su red. Los archivos suministrados deben ser archivos dump, como aquellos generados por el software LAMMPS [100].\\
 Una vez realizado el entrenamiento, estos datos quedan guardados en un archivo.json y pueden ser reutilizados para otras predicciones en caso de no disponer de una muestra sin deformacion.
 Desde el script nombrado main.py es que podemos ejecutar la totalidad del algoritmo. Para esto solo debemos ejecutar el comando python3 main.py en una terminal situada en el directorio que contiene los archivos de VacancyAnalysis, la muestra de entrenamiento y la muestra defectuosa.
+
+Se debe ejecutar en un entorno python que contenga a los scripts.py , la muestra de entrenamiento y la muestra defecuosa. Instalar los paquetes ovito, Scikit-Learn, XGBoost , Pandas ,Numpy  y pyplot (en caso de querer usar la funcionalidad para exportar figuras).
+Luego se debe  iniciar la ejecucion con python3 ./VFScript run
