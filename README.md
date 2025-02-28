@@ -1,4 +1,4 @@
-
+**Manual VFScript**
 El software desarrollado en el presente trabajo, denominado VacancyAnalysis, funciona para detectar, aislar y describir los defectos en una muestra atomística. Tras identificar estos defectos, el sistema extrae las características esenciales de cada uno, lo que permite alimentar tres modelos distintos de machine learning. Cada modelo se entrena para aproximar de manera precisa las vacancias asociadas a cada tipo de defecto. Está escrito en lenguaje Python 3.12.3 y depende de las librerías Numpy(1.23.0), Pandas(2.2.3), Scikit-learn(1.6.1) y XGBoost(2.1.4). Implementa los modificadores del software de código abierto OVITO (6.8.2.1) para extraer informacion relevante de aquellas regiones de la red cristalina que pueden presentar vacancias.
 
 
