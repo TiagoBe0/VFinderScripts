@@ -28,5 +28,5 @@ un archivo de entrenamiento (idealmente una red perfecta sin deformacion) y un a
 Una vez realizado el entrenamiento, estos datos quedan guardados en un archivo.json y pueden ser reutilizados para otras predicciones en caso de no disponer de una muestra sin deformacion.
 Desde el script nombrado main.py es que podemos ejecutar la totalidad del algoritmo. Para esto solo debemos ejecutar el comando python3 main.py en una terminal situada en el directorio que contiene los archivos de VacancyAnalysis, la muestra de entrenamiento y la muestra defectuosa.
 
-Se debe ejecutar en un entorno python que contenga a los scripts.py , la muestra de entrenamiento y la muestra defecuosa. Instalar los paquetes ovito, Scikit-Learn, XGBoost , Pandas ,Numpy  y pyplot (en caso de querer usar la funcionalidad para exportar figuras).
+Se debe ejecutar en un entorno python que contenga a los scripts.py , la muestra de entrenamiento y la muestra defecuosa en formato dump con las columnas 'id' 'type' 'x' 'y' 'z'. Instalar los paquetes ovito, Scikit-Learn, XGBoost , Pandas ,Numpy  y pyplot (en caso de querer usar la funcionalidad para exportar figuras).
 Luego se debe  iniciar la ejecucion con python3 ./VFScript run
