@@ -32,6 +32,7 @@ Se debe ejecutar en un entorno python que contenga a los scripts.py , la muestra
 Luego se debe  iniciar la ejecucion con python3 ./VFScript run
 **Resultados Exportados**
 
-![Mapa de calor 3D](dump-finalCool_160000_3D_heatmap.png)
+![Mapa de calor 3D]( VFinderScripts/dump-finalCool.160000_pop_cluster_bar.png
+)
 ![Mapas de contorno](dump-finalCool_160000_contour_maps.png)
 ![Gráfico de barras de clústeres](dump-finalCool_160000_pop_cluster_bar.png)
