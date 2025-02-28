@@ -31,7 +31,7 @@ Desde el script nombrado main.py es que podemos ejecutar la totalidad del algori
 Se debe ejecutar en un entorno python que contenga a los scripts.py , la muestra de entrenamiento y la muestra defecuosa en formato dump con las columnas 'id' 'type' 'x' 'y' 'z'. Instalar los paquetes ovito, Scikit-Learn, XGBoost , Pandas ,Numpy  y pyplot (en caso de querer usar la funcionalidad para exportar figuras).
 Luego se debe  iniciar la ejecucion con python3 ./VFScript run
 **Resultados Exportados**
-![Mapa de calor de clústeres](images/dump-finalCool_160000_pop_cluster_heatmap.png)
-![Mapa de calor 3D](images/dump-finalCool_160000_3D_heatmap.png)
-![Mapas de contorno](images/dump-finalCool_160000_contour_maps.png)
-![Gráfico de barras de clústeres](images/dump-finalCool_160000_pop_cluster_bar.png)
+
+![Mapa de calor 3D](dump-finalCool_160000_3D_heatmap.png)
+![Mapas de contorno](dump-finalCool_160000_contour_maps.png)
+![Gráfico de barras de clústeres](dump-finalCool_160000_pop_cluster_bar.png)
